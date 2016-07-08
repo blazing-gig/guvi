@@ -2,9 +2,8 @@ n = int(raw_input())
 l = []
 
 l = map(int, raw_input().split())
-if len(l) > n:
-	print "input too long"
-elif len(l) == 1:
+
+if len(l) == 1:
 	print 0
 else:
 	flag = 0
