@@ -3,7 +3,9 @@ l = []
 
 l = map(int, raw_input().split())
 
-if len(l) == 1:
+if len(l) > n:
+	print 0
+elif len(l) == 1:
 	print 0
 else:
 	flag = 0
