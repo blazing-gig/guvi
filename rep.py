@@ -10,7 +10,6 @@ else:
 	d = dict.fromkeys(l,0)
 	for key in l:
 		d[key] = d[key] + 1
-	print "repeated numbers are "
 	for key in d.keys():
 		if d[key] > 1:
 			print key
